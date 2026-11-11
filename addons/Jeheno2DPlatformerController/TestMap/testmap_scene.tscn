@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://c0mofd3xhboqm"]
 
-[ext_resource type="Texture2D" uid="uid://buolnt8nvuyi3" path="res://Godot-2D-Platformer-Controller/TestMap/prototype_tileset.png" id="2_4v0cq"]
-[ext_resource type="PackedScene" uid="uid://cu7gt8u4rwha5" path="res://Godot-2D-Platformer-Controller/PlayerCharacter/Scenes/player_character_scene.tscn" id="3_k6nqn"]
+[ext_resource type="Texture2D" uid="uid://buolnt8nvuyi3" path="res://Godot-2D-Platformer-Controller/addons/Jeheno2DPlatformerController/TestMap/prototype_tileset.png" id="2_4v0cq"]
+[ext_resource type="PackedScene" uid="uid://cu7gt8u4rwha5" path="res://Godot-2D-Platformer-Controller/addons/Jeheno2DPlatformerController/PlayerCharacter/Scenes/player_character_scene.tscn" id="3_k6nqn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k6nqn"]
 texture = ExtResource("2_4v0cq")

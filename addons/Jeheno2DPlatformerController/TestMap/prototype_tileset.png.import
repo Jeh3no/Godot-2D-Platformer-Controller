@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buolnt8nvuyi3"
-path="res://.godot/imported/prototype_tileset.png-7d9e7b5a7e86e594d60717a01b8e7643.ctex"
+path="res://.godot/imported/prototype_tileset.png-0dfb08cc6b3522fb3f82b45530c952b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Godot-2D-Platformer-Controller/TestMap/prototype_tileset.png"
-dest_files=["res://.godot/imported/prototype_tileset.png-7d9e7b5a7e86e594d60717a01b8e7643.ctex"]
+source_file="res://Godot-2D-Platformer-Controller/addons/Jeheno2DPlatformerController/TestMap/prototype_tileset.png"
+dest_files=["res://.godot/imported/prototype_tileset.png-0dfb08cc6b3522fb3f82b45530c952b8.ctex"]
 
 [params]
 

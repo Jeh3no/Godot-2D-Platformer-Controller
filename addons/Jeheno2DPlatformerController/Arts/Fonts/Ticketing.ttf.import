@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://bwr73i28ligrq"
-path="res://.godot/imported/Ticketing.ttf-788bd3d76bc29c7cfbc3d3f416f05316.fontdata"
+path="res://.godot/imported/Ticketing.ttf-81d8a8f701500ed5731f3b54718078fc.fontdata"
 
 [deps]
 
-source_file="res://Godot-2D-Platformer-Controller/Arts/Fonts/Ticketing.ttf"
-dest_files=["res://.godot/imported/Ticketing.ttf-788bd3d76bc29c7cfbc3d3f416f05316.fontdata"]
+source_file="res://Godot-2D-Platformer-Controller/addons/Jeheno2DPlatformerController/Arts/Fonts/Ticketing.ttf"
+dest_files=["res://.godot/imported/Ticketing.ttf-81d8a8f701500ed5731f3b54718078fc.fontdata"]
 
 [params]
 
