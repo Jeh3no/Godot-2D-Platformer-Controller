@@ -1,0 +1,217 @@
+[gd_scene format=3 uid="uid://vgrcxsmyp34d"]
+
+[ext_resource type="StyleBox" uid="uid://c50syhy1a4dmh" path="res://PlayerCharacter/HUD/player_character_hud_theme.tres" id="1_mpuyr"]
+[ext_resource type="Script" uid="uid://kyu68u8gd755" path="res://PlayerCharacter/HUD/hud_script.gd" id="1_utkm7"]
+[ext_resource type="LabelSettings" uid="uid://bs0stms0b56kp" path="res://PlayerCharacter/HUD/label_settings.tres" id="2_utkm7"]
+
+[node name="HUD" type="CanvasLayer" unique_id=1429026311]
+script = ExtResource("1_utkm7")
+metadata/_edit_use_anchors_ = true
+
+[node name="PlayerCharacterProperties" type="MarginContainer" parent="." unique_id=170153155]
+custom_minimum_size = Vector2(340, 0)
+custom_maximum_size = Vector2(340, -1)
+offset_right = 295.0
+offset_bottom = 77.0
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+
+[node name="PanelContainer" type="PanelContainer" parent="PlayerCharacterProperties" unique_id=1157483580]
+layout_mode = 2
+theme_override_styles/panel = ExtResource("1_mpuyr")
+
+[node name="PlayCharInfos" type="HBoxContainer" parent="PlayerCharacterProperties/PanelContainer" unique_id=1416195067]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos" unique_id=1773749291]
+layout_mode = 2
+
+[node name="CurrentStateLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=365167139]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Current state : "
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="PreviousStateLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=747264162]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Previous state : "
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="VelocityLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=1532574115]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Velocity : "
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="VelocityVectorLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=2126112295]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Velocity vector : "
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="IsOnFloorLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=1106795469]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Is on floor :"
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="NbJumpsAllowedLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=971733138]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Nb jumps allowed :"
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="JumpCooldownLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=1251057550]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Jump cooldown :"
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="CoyoteJumpEnabledLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=100812649]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Coyote jump enabled :"
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="JumpBufferEnabledLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=335499922]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Jump buffer enabled :"
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="EdgePushEnabledLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=974156444]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Edge push :"
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="FloorMaxLengthLabel" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer" unique_id=1567521910]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Floor max length :"
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos" unique_id=2023512945]
+layout_mode = 2
+
+[node name="CurrentStateLabelText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=1897529204]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="PreviousStateLabelText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=12575119]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="VelocityLabelText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=1205078]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="VelocityVectorLabelText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=1074174225]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="IsOnFloorLabelText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=31997586]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="NbJumpsAllowedLabelText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=53075512]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="JumpCooldownLabelText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=1089781321]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="CoyoteJumpEnabledLabelText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=1983951805]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="JumpBufferEnabledLabelText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=901595998]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="EdgePushLabelText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=151682989]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1
+
+[node name="FloorMaxLengthText" type="Label" parent="PlayerCharacterProperties/PanelContainer/PlayCharInfos/VBoxContainer2" unique_id=1002198682]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "..................."
+label_settings = ExtResource("2_utkm7")
+vertical_alignment = 1

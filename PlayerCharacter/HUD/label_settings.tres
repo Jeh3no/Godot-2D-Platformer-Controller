@@ -1,0 +1,10 @@
+[gd_resource type="LabelSettings" format=3 uid="uid://bs0stms0b56kp"]
+
+[ext_resource type="FontFile" uid="uid://bwr73i28ligrq" path="res://Arts/Fonts/Ticketing.ttf" id="1_arabi"]
+
+[resource]
+line_spacing = 5.0
+font = ExtResource("1_arabi")
+font_size = 15
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
