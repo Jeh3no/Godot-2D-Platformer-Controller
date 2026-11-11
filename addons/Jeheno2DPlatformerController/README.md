@@ -72,7 +72,7 @@ Collisions masks and layers are already set up in the scenes, but for more clari
 
 ## Step 4(optional) : Change texture filtering
 In Godot, the default texture filtering is set on Linear, which makes pixel art looks blurry.
-To make it look nice, change the setting to Nearest
+To make it look nice, change the setting to Nearest.
 
 
 # State machine overview
@@ -96,11 +96,11 @@ The controller uses 5 states, each in its own script:
 
 # **Credits**
 
-- 2D character original idea, plus idle and walk sprites by SplendidDog : https://splendiddog.itch.io/simply-plush
-- 2D character jump and fall sprites : Mugule
-- Prototype tilesets by GiMiCkO : https://gimicko.itch.io/platformer-tileset-template
+- 2D character original idea, plus idle and walk sprites by SplendidDog : https://splendiddog.itch.io/simply-plush.
+- 2D character jump and fall sprites by Mygule.
+- Prototype tilesets by GiMiCkO : https://gimicko.itch.io/platformer-tileset-template.
 
 
 # Donations
 
-If you like my assets, and want to support my work : https://ko-fi.com/jeheno
+If you like my assets, and want to support my work : https://ko-fi.com/jeheno.
