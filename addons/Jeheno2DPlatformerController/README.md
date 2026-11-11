@@ -12,7 +12,7 @@ It is 100% written in GDScript and follows GDScript conventions. My main goal wi
 
 A test map is provided to test the controller.
 
-A cute 2D character is also provided, fully animated (originals idea, plus the idle and move sprites comes from SplendigDog : https://splendiddog.itch.io/simply-plush, jump and fall animations comes from Mugule)
+A cute 2D animated character is also provided, to have a nicer test character than the capsule.
 
 The controller uses a finite state machine architecture where each state has its own script, making it straightforward to add, remove, or modify behaviors. All movement parametersand keybindings are exposed as export variables in the inspector for easy customization.
 
