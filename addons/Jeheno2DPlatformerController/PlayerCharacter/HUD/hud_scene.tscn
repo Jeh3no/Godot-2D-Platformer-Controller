@@ -1,16 +1,16 @@
 [gd_scene format=3 uid="uid://vgrcxsmyp34d"]
 
-[ext_resource type="StyleBox" uid="uid://c50syhy1a4dmh" path="res://PlayerCharacter/HUD/player_character_hud_theme.tres" id="1_mpuyr"]
-[ext_resource type="Script" uid="uid://kyu68u8gd755" path="res://PlayerCharacter/HUD/hud_script.gd" id="1_utkm7"]
-[ext_resource type="LabelSettings" uid="uid://bs0stms0b56kp" path="res://PlayerCharacter/HUD/label_settings.tres" id="2_utkm7"]
+[ext_resource type="StyleBox" uid="uid://c50syhy1a4dmh" path="res://Godot-2D-Platformer-Controller/addons/Jeheno2DPlatformerController/PlayerCharacter/HUD/player_character_hud_theme.tres" id="1_mpuyr"]
+[ext_resource type="Script" uid="uid://kyu68u8gd755" path="res://Godot-2D-Platformer-Controller/addons/Jeheno2DPlatformerController/PlayerCharacter/HUD/hud_script.gd" id="1_utkm7"]
+[ext_resource type="LabelSettings" uid="uid://bs0stms0b56kp" path="res://Godot-2D-Platformer-Controller/addons/Jeheno2DPlatformerController/PlayerCharacter/HUD/label_settings.tres" id="2_utkm7"]
 
 [node name="HUD" type="CanvasLayer" unique_id=1429026311]
 script = ExtResource("1_utkm7")
 metadata/_edit_use_anchors_ = true
 
 [node name="PlayerCharacterProperties" type="MarginContainer" parent="." unique_id=170153155]
-custom_minimum_size = Vector2(340, 0)
-custom_maximum_size = Vector2(340, -1)
+custom_minimum_size = Vector2(300, 0)
+custom_maximum_size = Vector2(300, -1)
 offset_right = 295.0
 offset_bottom = 77.0
 theme_override_constants/margin_left = 10

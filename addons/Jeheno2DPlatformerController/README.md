@@ -99,7 +99,7 @@ The controller uses 5 states, each in its own script:
 - 2D character original idea, plus idle and walk sprites by SplendidDog : https://splendiddog.itch.io/simply-plush.
 - 2D character jump and fall sprites by Mygule.
 - Prototype tilesets by GiMiCkO : https://gimicko.itch.io/platformer-tileset-template.
-
+- SpaceGrotesk font by Florian Karsten : https://fonts.google.com/specimen/Space+Grotesk
 
 # Donations
 

@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bwr73i28ligrq"
-path="res://.godot/imported/Ticketing.ttf-81d8a8f701500ed5731f3b54718078fc.fontdata"
+uid="uid://bu3xgvhsgj4s1"
+path="res://.godot/imported/SpaceGrotesk-Regular.ttf-588dc77f97cf9c2f3905bf0be85b2ee7.fontdata"
 
 [deps]
 
-source_file="res://Godot-2D-Platformer-Controller/addons/Jeheno2DPlatformerController/Arts/Fonts/Ticketing.ttf"
-dest_files=["res://.godot/imported/Ticketing.ttf-81d8a8f701500ed5731f3b54718078fc.fontdata"]
+source_file="res://Godot-2D-Platformer-Controller/addons/Jeheno2DPlatformerController/Arts/Fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf"
+dest_files=["res://.godot/imported/SpaceGrotesk-Regular.ttf-588dc77f97cf9c2f3905bf0be85b2ee7.fontdata"]
 
 [params]
 
@@ -22,8 +22,8 @@ msdf_size=48
 allow_system_fallback=true
 force_autohinter=false
 modulate_color_glyphs=false
-hinting=1
-subpixel_positioning=1
+hinting=3
+subpixel_positioning=4
 keep_rounding_remainders=true
 oversampling=0.0
 Fallbacks=null
