@@ -1,6 +1,6 @@
 A simple and complete 2D platformer controller asset, made in Godot 4.
 
-![preview.png](https://raw.githubusercontent.com/Jeh3no/Godot-2D-Platformer-Controller/refs/heads/main/addons/Jeheno2DPlatformerController/Arts/StoreImages/preview.png)
+![preview.png](https://github.com/Jeh3no/Godot-2D-Platformer-Controller/blob/main/addons/Jeheno2DPlatformerController/Arts/StoreImages/preview.png?raw=true)
 
 
 # **General**
